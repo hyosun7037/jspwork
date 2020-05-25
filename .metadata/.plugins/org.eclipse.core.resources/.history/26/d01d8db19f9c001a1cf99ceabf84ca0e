@@ -1,0 +1,26 @@
+package dao;
+
+import model.Drugstore;
+
+public class DrugstoreDao {
+
+	private final static String TAG = "DrugstoreDao";
+	
+	// 싱글톤
+	private static DrugstoreDao instance = new DrugstoreDao();
+	// 프로그램 실행 시 처음에 바로 뜨고 한번만 만들어짐 
+	
+	
+	public static DrugstoreDao getInstance() {
+		return instance;
+	}
+	
+	// 생성자
+	public DrugstoreDao() {
+		
+	}
+	
+	public Drugstore name() {
+		
+	}
+}

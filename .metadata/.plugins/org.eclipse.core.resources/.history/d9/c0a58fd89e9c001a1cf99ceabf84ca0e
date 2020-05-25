@@ -1,0 +1,9 @@
+package dao;
+
+public class DrugstoreDao {
+
+	private final static String TAG = "DrugstoreDao";
+	
+	private static DrugstoreDao instance = new DrugstoreDao();
+	
+}

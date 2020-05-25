@@ -1,0 +1,13 @@
+package model;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
+@Data
+public class Drugstore {
+	
+	private String name;
+	private String loc;
+	
+}

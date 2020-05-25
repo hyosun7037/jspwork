@@ -1,0 +1,21 @@
+<%@page import="model.Drugstore"%>
+<%@page import="dao.DrugstoreDao"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+
+<% 
+	DrugstoreDao dd = DrugstoreDao.getInstance();
+	Drugstore ds1 = dd.getFirstLine();
+%>    
+    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

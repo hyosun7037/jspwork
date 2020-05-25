@@ -1,0 +1,10 @@
+package dao;
+
+public class DrugstoreDao {
+
+	private final static String TAG = "DrugstoreDao";
+	
+	// 싱글톤
+	private static DrugstoreDao instance = new DrugstoreDao();
+	
+}
